@@ -7,9 +7,9 @@ Plataforma web colaborativa desenvolvida para conectar estudantes veteranos (pad
 ## 👥 Integrantes da Equipe
 
 * **Integrante 1**: Ednaldo Batista de Melo - Arquiteto & Líder Técnico (Arquitetura e Integração)
-* **Integrante 2**: Desenvolvedor Back-end (Lógica de Negócio e APIs)
-* **Integrante 3**: Desenvolvedor Back-end (Persistência de Dados e Segurança)
-* **Integrante 4**: Desenvolvedor Front-end & QA (Interface UI/UX, Testes e Documentação)
+* **Integrante 2**: Italo - Desenvolvedor Back-end (Lógica de Negócio e APIs)
+* **Integrante 3**: Fredson - Desenvolvedor Back-end (Persistência de Dados e Segurança)
+* **Integrante 4**: Thuanny - Desenvolvedor Front-end & QA (Interface UI/UX, Testes e Documentação)
 
 ---
 
@@ -73,4 +73,4 @@ Plataforma web colaborativa desenvolvida para conectar estudantes veteranos (pad
 
 * Adoção de princípios SOLID e Clean Code.
 * Design voltado para o usuário (UI/UX) com navegação fluida e acessível.
-* Gestão ágil de tarefas utilizando o GitHub Projects / Kanban.
+* Gestão ágil de tarefas utilizando o GitHub Projects / Scrum.
