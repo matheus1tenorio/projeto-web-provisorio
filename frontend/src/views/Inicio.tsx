@@ -21,8 +21,8 @@ export default function Inicio({ onNavigate }: InicioProps) {
           <p className="subtitle">Veja o que está acontecendo na sua semana.</p>
         </div>
         <button className="primary" onClick={() => openModal('encontro')}>
-          <Icon name="plus" />
-          Agendar encontro
+          <Icon name="calendar" />
+          Marcar uma reunião
         </button>
       </div>
 
