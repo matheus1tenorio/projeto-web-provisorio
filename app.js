@@ -219,11 +219,10 @@ function modal(kind) {
   
   if (kind === 'encontro') {
     html = `
-<<<<<<< HEAD
-      <h2>Marque a sua reunião</h2>
+      <h2>Agendar encontro</h2>
 =======
       <h2>Agendar encontro</h2>
->>>>>>> a149e2ab72fd0594382fe3b0c1fa9041dc05c48a
+      
       <p>Envie uma sugestão de horário para João.</p>
       <label>Data <input type="date" value="2026-08-26" /></label>
       <label>Horário 
