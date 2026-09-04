@@ -14,12 +14,12 @@ export default function Login({ onNavigate }: LoginProps) {
       <div className="login-banner">
         <div className="banner-content">
           <div className="logo" style={{ marginBottom: 20 }}>
-            <span className="logo-mark" style={{ backgroundColor: '#6fd28c', color: '#112417' }}>a</span>
+            <span className="logo-mark" style={{ backgroundColor: 'var(--green)', color: '#112417' }}>a</span>
             <span style={{ color: 'white', fontSize: '2.2rem', fontWeight: 700, marginLeft: '8px' }}>
-              apadrinha<span style={{ color: '#6fd28c' }}>ADS</span>
+              apadrinha<span style={{ color: 'var(--green)' }}>ADS</span>
             </span>
           </div>
-          <p className="banner-description" style={{ color: 'white', fontSize: '1rem', lineHeight: 1.5 }}>
+          <p className="banner-description" style={{ color: 'white', fontSize: '1.2rem', lineHeight: 1.5 }}>
             Conectando calouros e veteranos para uma jornada acadêmica mais colaborativa e acolhedora no IFPE.
             <br />
             Seja bem-vindo(a)!
@@ -43,13 +43,13 @@ export default function Login({ onNavigate }: LoginProps) {
             Informe suas credenciais institucionais para continuar.
           </p>
 
-          <label style={{ display: 'grid', gap: 6, fontSize: 12, fontWeight: 600, marginBottom: 14 }}>
-            <span>E-mail ou Usuário <span style={{ color: 'red' }}>*</span></span>
+          <label style={{ display: 'grid', gap: 6, fontSize: 12, fontWeight: 700, marginBottom: 14 }}>
+            <span>E-mail ou Usuário <span style={{ color: '#dc2626' }}>*</span></span>
             <input type="text" placeholder="seunome@discente.ifpe.edu.br" required style={{ fontWeight: 400 }} />
           </label>
           
-          <label style={{ display: 'grid', gap: 6, fontSize: 12, fontWeight: 600, marginBottom: 14 }}>
-            <span>Senha <span style={{ color: 'red' }}>*</span></span>
+          <label style={{ display: 'grid', gap: 6, fontSize: 12, fontWeight: 700, marginBottom: 14 }}>
+            <span>Senha <span style={{ color: '#dc2626' }}>*</span></span>
             <input type="password" placeholder="••••••••" required style={{ fontWeight: 400 }} />
           </label>
 

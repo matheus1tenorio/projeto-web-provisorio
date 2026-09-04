@@ -21,7 +21,7 @@ import Notificacoes from './views/Notificacoes';
 const AUTH_VIEWS: ViewId[] = ['login', 'cadastro'];
 
 function AppShell() {
-  const [view, setView] = useState<ViewId>('inicio');
+  const [view, setView] = useState<ViewId>('login');
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const navigate = (next: ViewId) => {
