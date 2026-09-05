@@ -1,4 +1,5 @@
 import Icon from '../components/Icon';
+import type { Tip } from '../types';
 import { tips } from '../data/mock';
 import { useModal } from '../context/ModalContext';
 import { useToast } from '../context/ToastContext';
@@ -37,7 +38,7 @@ export default function Mural() {
       </div>
 
       <div className="mural-grid">
-        {tips.map((t) => (
+        {tips.map((t: Tip) => (
           <article className="card tip-card" key={t.title}>
             <span className="tip-icon">{t.emoji}</span>
             <h2>{t.title}</h2>

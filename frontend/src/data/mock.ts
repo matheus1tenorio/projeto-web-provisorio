@@ -86,3 +86,24 @@ export const announcements: Announcement[] = [
     category: 'Manutenção',
   },
 ];
+
+export const tips = [
+  {
+    emoji: '🗺️',
+    title: 'Onde ficam os laboratórios?',
+    description: 'Um mapa e atalhos para você não se perder nos primeiros dias.',
+    author: 'João Mendes',
+  },
+  {
+    emoji: '📚',
+    title: 'Minha rotina de estudos que funciona',
+    description: 'Como organizo demandas, prazos e revisão sem enlouquecer.',
+    author: 'Larissa Melo',
+  },
+  {
+    emoji: '💼',
+    title: 'Primeiro estágio: por onde começar?',
+    description: 'Uma lista prática para preparar seu portfólio desde cedo.',
+    author: 'Rafael Nunes',
+  },
+];
